@@ -6,13 +6,13 @@
 
 :root{
     --white:#fff;
-    /*--background: #F2F3F5;*/
+    /*--background: #F2F3F5; -> cor original*/
     --background: #3b3b3d;
     --gray-line: #DCDDE0;
-    /*--text: #666666;*/
+    /*--text: #666666; -cor original*/
     --text: #F2F3F5;
     --text-highlight: #B3B9FF;
-    /*--title: #2E384D;*/
+    /*--title: #2E384D; -cor original */
     --title: #ffffff;
     --red: #E83F5B;
     --green: #4CD62B;
