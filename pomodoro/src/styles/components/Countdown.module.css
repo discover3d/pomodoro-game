@@ -1,0 +1,41 @@
+.countdownContainer{
+    display: flex;
+    align-items: center;
+    font-family: Rajdhani;
+    font-weight: 600;
+    /*color: var(--title); -> cor original*/
+    color: var(--blue-dark);
+}
+
+.countdownContainer > div {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--white);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-size: 8.5rem;
+    text-align: center;
+}
+
+.countdownContainer > div span {
+    flex: 1;
+}
+
+.countdownContainer > div span:first-child {
+    /*border-right: 1px solid #f0f1f3; -> cor original*/
+    border-right: 1px solid #3b3b3d;
+}
+
+.countdownContainer > div span:last-child {
+    /*border-left: 1px solid #f0f1f3; -> cor original*/
+    border-left: 1px solid #3b3b3d;
+}
+
+.countdownContainer > span {
+    font-size: 6.25rem;
+    margin: 0 0.5rem;
+}
