@@ -1,5 +1,4 @@
 .overlay{
-    /* background: rgba(242, 243, 245, 0.8); -> cor original*/
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
@@ -13,8 +12,7 @@
 }
 
 .container {
-    /* background: var(--white); cor original*/
-    background: var(--white);
+    background: var(--background-secondary);
     width: 100%;
     max-width: 400px;
     padding: 2rem 3rem;
@@ -27,22 +25,20 @@
 .container header {
     font-size: 8.75rem;
     font-weight: 600;
-    color: var(--blue);
+    color: var(--title);
     background: url('/icons/levelUp.svg') no-repeat center;
     background-size: contain;
 }
 
 .container strong { 
     font-size: 2.25rem;
-    /* color: var(--title); cor original*/
-    color: var(--blue-dark);
+    color: var(--title);
     margin-top: 0.25rem;
 }
 
 .container p {
     font-size: 1.25rem;
-    /* color: var(--text); -> cor original */
-    color: var(--blue-dark);
+    color: var(--text);
     margin-top: 0.25rem;
 }
 
